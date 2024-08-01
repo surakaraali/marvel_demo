@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 10px;
+  }
+  
+  body {
+    font-family: "Arsenal SC", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    background-color: rgb(58, 58, 58);
+  }
+  
+  a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  
+  p {
+    padding: 1.6rem;
+  }
+  
+  header {
+    height: 46rem;
+    position: relative;
+  }
+  
+  header .bg-image {
+    position: absolute;
+    background-image: url(images/marvel_main_photo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 46rem;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+  }
+  
+  header h1 {
+    padding-top: 10em;
+    padding-bottom: 0;
+  }
+  
+  a.button {
+    display: inline-block;
+    background-color: rgba(73, 2, 2, 0.5);
+    color: white;
+    padding: 0.5em;
+    border-radius: 10px;
+  }
+  
+  a.button:hover {
+    padding: 1em;
+  }
+  
+  section#section-a {
+    padding: 4em;
+    background-color: rgba(104, 99, 93, 0.2);
+  }
+  
+  section#section-b {
+    
+    color: rgba(236, 234, 234, 0.7);
+    margin-bottom: 2em;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  #section-b ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2em;
+  }
+  
+  #section-b li {
+    margin-bottom: 10rem;
+    background-color: hsl(0, 59%, 41%,0.3);
+
+
+  }
+  
+  #section-b .col-content {
+    padding: 1rem;
+  }
